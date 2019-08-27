@@ -1,3 +1,6 @@
+
+const basic = () => {
+
 console.log('Ahoy TypeScript too!');
 
 const arr = [{ name: 'test', top: 'ok' }];
@@ -61,5 +64,8 @@ const spreadOrder = Object.assign({}, pizza, { toppings });
 
 console.log(spreadOrder);
 
+};
+
+basic();
 
 
